@@ -1,0 +1,82 @@
+﻿@model yyyooolo.towary
+
+@{
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+</head>
+<body>
+    <div>
+        <h4>towary</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.nazwa_towaru)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.nazwa_towaru)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.symbol)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.symbol)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.stan_poczatkowy)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.stan_poczatkowy)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.cena_zakupu)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.cena_zakupu)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.stawka_vat)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.stawka_vat)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.marza)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.marza)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.cena_sprzedazy)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.cena_sprzedazy)
+            </dd>
+    
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.id_towaru }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</body>
+</html>

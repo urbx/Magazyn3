@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1974074055724e4e8e724ad6bdb0ef33" Name="Diagram1">
+        <EntityTypeShape EntityType="magazynModel.Dostawcy" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="magazynModel.fak_sprze" Width="1.5" PointX="3" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="magazynModel.fak_zak" Width="1.5" PointX="6" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="magazynModel.klienci" Width="1.5" PointX="0.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="magazynModel.Pracownicy" Width="1.5" PointX="0.75" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="magazynModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="magazynModel.tblUser" Width="1.5" PointX="7.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="magazynModel.towary" Width="1.5" PointX="0.75" PointY="9" IsExpanded="true" />
+        <AssociationConnector Association="magazynModel.FK_fak_zak_Dostawcy" ManuallyRouted="false" />
+        <AssociationConnector Association="magazynModel.FK_fak_sprze_klienci" ManuallyRouted="false" />
+        <AssociationConnector Association="magazynModel.FK_fak_sprze_Pracownicy" ManuallyRouted="false" />
+        <AssociationConnector Association="magazynModel.FK_fak_sprze_towary" ManuallyRouted="false" />
+        <AssociationConnector Association="magazynModel.FK_fak_zak_Dostawcy1" ManuallyRouted="false" />
+        <AssociationConnector Association="magazynModel.FK_fak_zak_towary" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
